@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restaurant Le Jardin des Délices</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html">
+                <img src="./images/logo.jpg" alt="logo" class="logo">
+                <span id="cart-badge" class="cart-badge">0</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="slider-bg">
+            <img src="./assets/images/about-image.jpg" alt="Image 1" class="slide">
+            <img src="./assets/images/coffee-hero-section.png" alt="Image 2" class="slide">
+            <img src="./assets/images/burger.jpg" alt="Image 3" class="slide">
+            <img src="./assets/images/special-combo.png" alt="Image 4" class="slide">
+            <img src="./images/img-resto.jpg" alt="Image 5" class="slide">
+            <img src="./images/etoile.jpg" alt="Image 6" class="slide">
+        </div>
+        <p class="firstp"><span>N</span>os <span>D</span>élicieux <span>P</span>lats</p>
+        <a href="#menu" class="btn-1">Voir nos délices</a>
+    </header>
+
+    <h2 class="firstp" id="menu"><span>M</span>enu</h2>
+    <section class="section-menu" id="menu">
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/burger-frenchfries.png" alt="Burger & Frites">
+                </div>
+                <div>
+                    <h3>Burger & Frites</h3>
+                    <p>Pain moelleux, steak haché, fromage, crudités, sauce maison. Servi avec frites croustillantes.</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Burger & Frites"></button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/cold-beverages.png" alt="Boissons fraîches">
+                </div>
+                <div>
+                    <h3>Boissons fraîches</h3>
+                    <p>Sodas, jus naturels, eau minérale, boissons exotiques pour vous rafraîchir à tout moment.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Boissons fraîches">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/desserts.png" alt="Salades fraîches">
+                </div>
+                <div>
+                    <h3>Salades fraîches</h3>
+                    <p>Assortiment de légumes frais, vinaigrette maison, option poulet ou thon.</p>
+                    c
+                    <button type="button" class="panier" data-nom="Salades fraîches">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+              <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/hot-beverages.png" alt="Café gourmand">
+                </div>
+                <div>
+                    <h3>Café gourmand</h3>
+                    <p>Café expresso accompagné de mini-pâtisseries et douceurs sucrées.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Café gourmand">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/refreshment.png" alt="Boissons chaudes">
+                </div>
+                <div>
+                    <h3>Boissons chaudes</h3>
+                    <p>Thé, chocolat chaud, cappuccino, infusions pour une pause douceur.</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Boissons chaudes">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./assets/images/special-combo.png" alt="Formule spéciale">
+                </div>
+                <div>
+                    <h3>Formule spéciale</h3>
+                    <p>Plat du chef, accompagnement, boisson et dessert au choix.</p>
+                    <span class="prix">5 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Formule spéciale">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/igname.jpg" alt="Igname spécial">
+                </div>
+                <div>
+                    <h3>Igname spécial</h3>
+                    <p>Igname vapeur servi avec sauce graine ou sauce arachide, viande ou poisson au choix.</p>
+                    <span class="prix">3 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Igname spécial">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/tchep1.jpg" alt="Tchep poisson">
+                </div>
+                <div>
+                    <h3>Tchep poisson</h3>
+                    <p>Riz parfumé, légumes variés, poisson braisé, épices africaines.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Tchep poisson">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/p-braisé2.jpg" alt="Poulet braisé">
+                </div>
+                <div>
+                    <h3>Poulet braisé</h3>
+                    <p>Poulet mariné et grillé, servi avec alloco ou attiéké, sauce piquante maison.</p>
+                    <span class="prix">4 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Poulet braisé">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/pizza1.jpg" alt="Pizza royale">
+                </div>
+                <div>
+                    <h3>Pizza royale</h3>
+                    <p>Pâte fine, sauce tomate, jambon, champignons, olives, fromage fondant.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Pizza royale">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/salade.webp" alt="Salade exotique">
+                </div>
+                <div>
+                    <h3>Salade exotique</h3>
+                    <p>Salade verte, avocat, mangue, crevettes, vinaigrette citronnée.</p>
+                    <span class="prix">2 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Salade exotique">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/salade.jpg" alt="Salade fraîcheur">
+                </div>
+                <div>
+                    <h3>Salade fraîcheur</h3>
+                    <p>Tomates, concombre, oignons, œufs, olives, vinaigrette maison.</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Salade fraîcheur">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/pom.jpg" alt="Pommes sautées">
+                </div>
+                <div>
+                    <h3>Pommes sautées</h3>
+                    <p>Pommes de terre sautées à la poêle, herbes fraîches, ail et persil.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Pommes sautées">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/pizza5.jpg" alt="Pizza végétarienne">
+                </div>
+                <div>
+                    <h3>Pizza végétarienne</h3>
+                    <p>Pâte fine, sauce tomate, légumes grillés, mozzarella, olives.</p>
+                    <span class="prix">3 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Pizza végétarienne">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/pizza3.jpg" alt="Pizza 4 fromages">
+                </div>
+                <div>
+                    <h3>Pizza 4 fromages</h3>
+                    <p>Fromage de chèvre, mozzarella, emmental, bleu, pâte fine et croustillante.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Pizza 4 fromages">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/pizz4.jpg" alt="Pizza savoyarde">
+                </div>
+                <div>
+                    <h3>Pizza savoyarde</h3>
+                    <p>Crème, pommes de terre, lardons, oignons, reblochon, mozzarella.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Pizza savoyarde">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/burger4.jpg" alt="Burger classique">
+                </div>
+                <div>
+                    <h3>Burger classique</h3>
+                    <p>Pain brioché, steak haché de boeuf, fromage cheddar, cornichons, laitue et sauce ketchup.</p>
+                    <span class="prix">3 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Burger classique">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/burger3.jpg" alt="Double Cheese Burger">
+                </div>
+                <div>
+                    <h3>Double Cheese Burger</h3>
+                    <p>Double steak de boeuf, salade fraîche, pain brioché, sauce maison.</p>
+                    <span class="prix">4 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Double Cheese Burger">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/alloco.jpg" alt="Alloco oeufs">
+                </div>
+                <div>
+                    <h3>Alloco oeufs</h3>
+                    <p>Bananes plantain accompagnées de 5 oeufs et sauce épicée.</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Burger poulet">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/burger.jpg" alt="Burger végétarien">
+                </div>
+                <div>
+                    <h3>Burger végétarien</h3>
+                    <p>Burger au boeuf, fromage, salade, tomates, frites dorées et boisson fraîche.</p>
+                    <span class="prix">4 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Burger végétarien">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/burger2.jpg" alt="">
+                </div>
+                <div>
+                    <h3>Burger poulet</h3>
+                    <p>Filet de poulet croustillant, fromage fondant, laitue, tomates, sauce sésame.</p>
+                    <span class="prix">4 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Burger poulet">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/coffee2.jpg" alt="Café noir">
+                </div>
+                <div>
+                    <h3>Café noir</h3>
+                    <p>Café noir corsé, servi chaud pour accompagner vos gourmandes.</p>
+                    <span class="prix">500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Café noir">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/cok (3).jpg" alt="Cocktails de jus frais">
+                </div>
+                <div>
+                    <h3>Cocktails de jus frais</h3>
+                    <p>Selection de Cocktails de jus frais, colorés et désaltérants, parfaits pour se rafarîchir.</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Cocktails de jus frais">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div> 
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert1.jpg" alt="Verrine fraise mascarpone">
+                </div>
+                <div>
+                    <h3>Verrine fraise mascarpone"></h3>
+                    <p>Déssert en vérrine composé de mascarpone onctueux de fraises fraîches et de coulis de fruits rouges.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Verrine fraise mascarpone">">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert3.jpg" alt="Gâteau de maïs">
+                </div>
+                <div>
+                    <h3>Gâteau de mais</h3>
+                    <p>Délicieux gâteau moelleux à base de farine de maïs, légèrement sucré, spécil=alité africaine .</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Gâteau de mais">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert2.jpg" alt="Entremet framboise">
+                </div>
+                <div>
+                    <h3>Entremet framboise</h3>
+                    <p>Entremet raffiné à la framboise, mousse légère, biscuit moelleux et coulis de fruits rouges.</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Entremet framboise">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert4.jpg" alt="Shortcake aux fraises">
+                </div>
+                <div>
+                    <h3>Shortcake aux fraises</h3>
+                    <p>Gâteau sablé garni de crème chantilly et de fraises fraîches, déssert gourmand et fruité.</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Shortcake aux fraises">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert.jpg" alt="Flan caramel">
+                </div>
+                <div>
+                    <h3>Flan caramel</h3>
+                    <p>Flan maison à la vanille nappé d'un caramel doré, texture fondante et saveur délicate.</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Flan caramel">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert5.jpg" alt="Glace à l'italienne">
+                </div>
+                <div>
+                    <h3>Glace à l'italienne"></h3>
+                    <p>Cornet de glace à l'italienne, onctueuse et légère, saveur vanille.</p>
+                    <span class="prix">500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Glace à l'italienne">">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert6.jpg" alt="Glace vanille en coupe">
+                </div>
+                <div>
+                    <h3>Glace vanille en coupe</h3>
+                    <p>Boules de glace vanille servies en coupe, décorées de feuilles de menthe.</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Glace vanille en coupe">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/dessert7.jpg" alt="Glaces artisanales">
+                </div>
+                <div>
+                    <h3>Glaces artisanales</h3>
+                    <p>Assortiment de glaces artisanales aux parfums variés: chocolat, fraise, pistache, vanille.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Glaces artisanales">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/garba.jpg" alt="Bon Garba👌">
+                </div>
+                <div>
+                    <h3>Bon Garba👌</h3>
+                    <p>Trés bon attiéké accompagné de thon grillé, oignons, piment frais.</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Bon Garba👌">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/ananas.jpg" alt="Ananas naturel">
+                </div>
+                <div>
+                    <h3>Ananas naturel</h3>
+                    <p>Ananas naturel parfait pour votre dessert.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Ananas naturel">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/foutou.jpg" alt="Foutou sauce graine">
+                </div>
+                <div>
+                    <h3>Foutou sauce graine</h3>
+                    <p>Faire à base de banane plantain acompagné de sauce graine, crabe et escargot.</p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="Foutou sauce graine">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/tcep3.jpg" alt="Tchêp ivoirien">
+                </div>
+                <div>
+                    <h3>Tchêp ivoirien</h3>
+                    <p>Riz accompagné de poisson grillé, crévettes, chou, carottes, épices, aubergine etc...</p>
+                    <span class="prix">2 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Tchêp ivoirien">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/mintche.jpg" alt="Wintché">
+                </div>
+                <div>
+                    <h3>Wintché</h3>
+                    <p>Spécialité africaine faite à base d'haricot et riz, macaroni, pate épicée et oeuf</p>
+                    <span class="prix">800 FCFA</span>
+                    <button type="button" class="panier" data-nom="Wintché">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/omelet.jpg" alt="Omelette">
+                </div>
+                <div>
+                    <h3>Omelette</h3>
+                    <p>Oeufs grillés accompagnés de tomates fraiches, oignons, avocat et fromages </p>
+                    <span class="prix">800 FCFA</span>
+                    <button type="button" class="panier" data-nom="Omelette">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/spa2.jpg" alt="Spagetti">
+                </div>
+                <div>
+                    <h3>Spagetti</h3>
+                    <p>macaroni accompagné de sauce tomates épicée etc...</p>
+                    <span class="prix">1 000 FCFA</span>
+                    <button type="button" class="panier" data-nom="Spagetti">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+         <div class="menu-contain">
+            <div class="box">
+                <div class="inbox">
+                    <img src="./images/spa3.jpg" alt="macaroni poulet">
+                </div>
+                <div>
+                    <h3>macaroni poulet</h3>
+                    <p>Macaroni accompagné de poulet grillé, carottes et pate épicée etc... </p>
+                    <span class="prix">1 500 FCFA</span>
+                    <button type="button" class="panier" data-nom="macaroni poulet">Ajouter au panier🛒</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formulaire de contact -->
+    <h2 class="firstp" id="contact"><span>C</span>ontactez-<span>N</span>ous</h2>
+    <section class="contact-section" id="contact">
+        <h2>Envoyez-nous un message</h2>
+        <form class="contact-form" action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="contact-infos">
+            <h3>Nos coordonnées</h3>
+            <p>📍 123 Quartier millionnaire, Yakro</p>
+            <p>📞 07 58 71 56 53</p>
+            <p>✉️ contact@jardindesdelices.com</p>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <h2 class="firstp" id="about"><span>A</span> propos de <span>N</span>ous</h2>
+    <section class="about-section" id="about">
+        <div>
+            <p class="secondp">
+                Bienvenue au <strong>Jardin des Délices</strong>, votre restaurant Afro-Européen à Yakro !<br>
+                Nous vous proposons une cuisine savoureuse, mélangeant les saveurs authentiques de l’Afrique et de l’Europe, dans une ambiance chaleureuse et conviviale.<br>
+                Notre équipe passionnée sélectionne des ingrédients frais et de qualité pour vous offrir des plats faits maison, généreux et gourmands.<br>
+                Venez découvrir nos spécialités, nos formules du chef et nos desserts maison, pour un voyage culinaire unique !
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 <a href="#">Restaurant Le Jardin des Délices</a>. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <a href="#" class="btn-top" title="Remonter">↑</a>
+
+    <!-- Modal Panier -->
+    <div id="cart-modal" class="cart-modal" style="display:none;">
+        <div class="cart-content">
+            <h3>Votre panier</h3>
+            <ul id="cart-list"></ul>
+            <button id="close-cart">Fermer</button>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+</script>
+</html>
